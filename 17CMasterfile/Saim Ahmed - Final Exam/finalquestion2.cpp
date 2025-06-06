@@ -3,8 +3,6 @@
 #include <iostream>
 #include <cmath>
 #include <stack>
-
-
 using namespace std;
 
 float h(float);
@@ -15,7 +13,7 @@ stack<float> scos;
 
 int main(){
     
-
+    cout << "Angle" << "\t" << "Sin Calls" << "\t" << "Cos Calls" << endl;
     for (float i = -1.0 ; i <= 1.0 ; i+=0.1){
 
         while(!ssin.empty() && !scos.empty()){
